@@ -22,7 +22,7 @@ setup(
     python_requires=">=3.7.0",
     install_requires=[
         "requests >= 2.0.0",
-        "PyJWT >= 2.0.0, < 3.0.0",
+        "PyJWT == 1.7.1",
         "aiohttp>=3.8.4",
         "aiohttp-retry>=2.8.3",
     ],
